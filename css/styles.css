@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 50px 30px;
+}
+.card {
+  background-color: aqua;
+  padding: 20px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 370px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container {
+    text-align: center;
+  }
+}
